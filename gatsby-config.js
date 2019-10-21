@@ -22,6 +22,7 @@ module.exports = {
     },
     `gatsby-transformer-yaml`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
