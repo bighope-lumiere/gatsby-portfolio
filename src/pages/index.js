@@ -1,14 +1,20 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+const Title = styled.h1`
+  font-size: 64px;
+  color: rgba(0,0,0,.87);
+`
+
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hello Great Gatsby</h1>
+    <Title>Taiki Sato</Title>
     {data.allWorksYaml.edges.map(edge => {
       const work = edge.node
       return (

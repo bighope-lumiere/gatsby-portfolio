@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `はじめての GraphQL`,
-    description: `はじめての GraphQL をかいてみましょう`,
+    title: `Taiki Sato`,
+    description: `Portfolio Taiki Sato`,
     author: `@9satoooh`,
   },
   plugins: [
